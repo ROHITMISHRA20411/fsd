@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: chartreuse;
+}
+
+img
+{
+    width: 60px;
+    height: 100px;
+}
+
+a, .lgn, .sgn{
+    background-color: aqua;
+    font-size: 40px;
+    border: 5px solid pink;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:red ;
+    color: lawngreen;
+}
+
+.main-content{
+    display: flex;
+    border: 3px solid greenyellow;
+    margin: 20px;
+    height: 300px;
+    background-color: cornflowerblue;
+}
